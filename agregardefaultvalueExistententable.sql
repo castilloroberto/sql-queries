@@ -1,0 +1,3 @@
+ALTER TABLE productos
+ADD CONSTRAINT df_estado
+DEFAULT 1 FOR Estado;
